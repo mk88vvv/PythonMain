@@ -1,0 +1,13 @@
+file2=open("file2.txt")
+file22=open("file22.txt")
+a=file2.readlines()
+b=file22.readlines()
+file2.close()
+file22.close()
+file2=open("file2.txt","w")
+file22=open("file22.txt","w")
+file22.writelines(a)
+file2.writelines(b)
+file2.close()
+file22.close()
+

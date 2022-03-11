@@ -1,0 +1,5 @@
+a=input()
+b=input()
+c=(((int(b[0])*10+int(b[1]))*60+10*int(b[-2])+int(b[-1]))-((int(a[0])*10+int(a[1]))*60+10*int(a[-2])+int(a[-1])))
+print(c//60)
+print(c%60)
